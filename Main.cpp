@@ -39,7 +39,7 @@
 #include "CLucene/config/repl_tchar.h"
 #include "CLucene/util/Misc.h"
 #include "CLucene/util/StringBuffer.h"
-#include "LinhHelperLibrary.cpp"
+//#include "LinhHelperLibrary.cpp"
 
 using namespace std;
 using namespace lucene::index;
@@ -86,10 +86,9 @@ int main( int32_t argc, char** argv ){
 
 
 		IndexFiles(files,ndx,true);
-		
-        getStats(ndx);
-        SearchFiles(ndx);
-        //DeleteFiles(ndx);
+		getStats(ndx);
+		SearchFiles(ndx);
+		//DeleteFiles(ndx);
 
     }catch(CLuceneError& err){
         printf("Error: %s\n", err.what());
