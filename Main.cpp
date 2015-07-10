@@ -40,6 +40,7 @@
 #include "CLucene/util/Misc.h"
 #include "CLucene/util/StringBuffer.h"
 
+
 using namespace std;
 using namespace lucene::index;
 using namespace lucene::analysis;
@@ -93,10 +94,9 @@ int main( int32_t argc, char** argv ){
 
 
 		IndexFiles(files,ndx,true);
-		
-        getStats(ndx);
-        SearchFiles(ndx);
-        //DeleteFiles(ndx);
+		getStats(ndx);
+		SearchFiles(ndx);
+		//DeleteFiles(ndx);
 
     }catch(CLuceneError& err){
         printf("Error: %s\n", err.what());
