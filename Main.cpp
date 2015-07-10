@@ -40,6 +40,7 @@
 #include "CLucene/util/Misc.h"
 #include "CLucene/util/StringBuffer.h"
 
+
 using namespace std;
 using namespace lucene::index;
 using namespace lucene::analysis;
