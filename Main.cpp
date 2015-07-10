@@ -39,7 +39,6 @@
 #include "CLucene/config/repl_tchar.h"
 #include "CLucene/util/Misc.h"
 #include "CLucene/util/StringBuffer.h"
-//#include "LinhHelperLibrary.cpp"
 
 using namespace std;
 using namespace lucene::index;
@@ -48,9 +47,8 @@ using namespace lucene::util;
 using namespace lucene::store;
 using namespace lucene::document;
 
-
-using namespace std;
-using namespace lucene::util;
+#include <stack>
+#include "LinhHelperLibrary.h"
 
 //void DeleteFiles(const char* dir);
 void IndexFiles(const char* path, const char* target, const bool clearIndex);
@@ -58,6 +56,14 @@ void SearchFiles(const char* index);
 void getStats(const char* directory);
 
 int main( int32_t argc, char** argv ){
+
+	stack<string> directories;
+	string input("/home/linh/Desktop/a");
+	LINH_LIST_DIRECTORY(input,directories);
+	cout << directories.size();
+
+	getchar();
+
 	//Dumper Debug
 	#ifdef _MSC_VER
 	#ifdef _DEBUG
@@ -75,12 +81,13 @@ int main( int32_t argc, char** argv ){
 		char files[250];
 		char* tmp = fgets(files,250,stdin);
 		if ( tmp == NULL ) return 1;
-		
-		printf("Location to store the LUCENE index: ");
+
+		/*printf("Location to store the LUCENE index: ");
 		char ndx[250];
 		tmp = fgets(ndx,250,stdin);
 		if ( tmp == NULL ) return 1;
-		ndx[strlen(ndx)-1] = 0;
+		ndx[strlen(ndx)-1] = 0;*/
+		char ndx[] = "/home/linh/Desktop/index";
 
 		//Find folder in C++
 

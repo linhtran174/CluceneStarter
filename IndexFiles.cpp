@@ -12,6 +12,7 @@
 #include <cctype>
 #include <string.h>
 #include <algorithm>
+#include <stack>
 
 #include "CLucene/StdHeader.h"
 #include "CLucene/_clucene-config.h"
@@ -22,6 +23,8 @@
 #include "CLucene/config/repl_tchar.h"
 #include "CLucene/util/Misc.h"
 #include "CLucene/util/StringBuffer.h"
+
+#include "LinhHelperLibrary.h"
 
 using namespace std;
 using namespace lucene::index;
@@ -115,10 +118,18 @@ void IndexFiles(const char* path, const char* target, const bool clearIndex){
 	uint64_t str = Misc::currentTimeMillis();
 
     //List all directories (recursively)
-    
+    stack<string> directories;
+    string temp(path);
+    LINH_LIST_DIRECTORY(temp,directories);
+
+    cout << "LINH: number of directories: " << directories.size() << endl;
 
     //Index each directory
-	indexDocs(writer, path);
+	for (int i = 0; i < directories.size(); ++i)
+    {
+        indexDocs(writer, directories.top().c_str());
+        directories.pop();
+    }
 	
     // Make the index use as little files as possible, and optimize it
     writer->setUseCompoundFile(true);

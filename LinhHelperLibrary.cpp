@@ -1,5 +1,5 @@
-#ifndef LINH_HELPER_
-#define LINH_HELPER_
+#ifndef LINH_HELPER_CPP
+#define LINH_HELPER_CPP
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,33 +7,31 @@
 
 #include <iostream>
 #include <string>
+#include <stack>
 
-void LinhTest()
+using namespace std;
+
+void ProcessDirectory(std::string, stack<string>& );
+void ProcessFile(std::string);
+void ProcessEntity(struct dirent*, stack<string>& );
+
+void LINH_LIST_DIRECTORY(std::string directory, stack<string>& output)
 {
-    printf("LinhTestOK!!\n");
-}
-void ProcessDirectory(std::string directory);
-void ProcessFile(std::string file);
-void ProcessEntity(struct dirent* entity);
-
-void _LINH_DIRECTORY_FACTORY(std::string directory, int command){
-    
+    ProcessDirectory(directory, output);
 }
 
-
-
-void ProcessDirectory(std::string directory)
+string system__root_path = "";
+void ProcessDirectory(std::string directory, stack<string>& output)
 {
-	std::string path = "/";
-    std::string dirToOpen = path + directory;
+    std::string dirToOpen = system__root_path + directory;
     DIR *dir = opendir(dirToOpen.c_str());
 
     //set the new path for the content of the directory
-    path = dirToOpen + "/";
+    system__root_path = dirToOpen + "/";
 
     //Output dirToOpen.c_str();
     std::cout << "Process directory: " << dirToOpen.c_str() << std::endl;
-    _LINH_DIRECTORY_LIST(dirToOpen.c_str());
+    output.push(dirToOpen);
 
     if(NULL == dir)
     {
@@ -45,16 +43,16 @@ void ProcessDirectory(std::string directory)
 
     while(entity != NULL)
     {
-        ProcessEntity(entity);
+        ProcessEntity(entity,output);
         entity = readdir(dir);
     }
 
     //we finished with the directory so remove it from the path
-    path.resize(path.length() - 1 - directory.length());
+    system__root_path.resize(system__root_path.length() - 1 - directory.length());
     closedir(dir);
 }
 
-void ProcessEntity(struct dirent* entity)
+void ProcessEntity(struct dirent* entity, stack<string>& output)
 {
     //find entity type
     if(entity->d_type == DT_DIR)
@@ -66,7 +64,7 @@ void ProcessEntity(struct dirent* entity)
         }
 
         //it's an directory so process it
-        ProcessDirectory(std::string(entity->d_name));
+        ProcessDirectory(std::string(entity->d_name),output);
         return;
     }
 
@@ -85,7 +83,6 @@ void ProcessEntity(struct dirent* entity)
 void ProcessFile(std::string file)
 {
     std::cout << "Process file     : " << file.c_str() << std::endl;
-
     //if you want to do something with the file add your code here
 }
 
