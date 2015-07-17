@@ -20,17 +20,17 @@ void LINH_LIST_DIRECTORY(std::string directory, stack<string>& output)
     ProcessDirectory(directory, output);
 }
 
-string system__root_path = "";
+string __temp_root_path = "";
 void ProcessDirectory(std::string directory, stack<string>& output)
 {
-    std::string dirToOpen = system__root_path + directory;
+    std::string dirToOpen = __temp_root_path + directory;
     DIR *dir = opendir(dirToOpen.c_str());
 
     //set the new path for the content of the directory
-    system__root_path = dirToOpen + "/";
+    __temp_root_path = dirToOpen + "/";
 
     //Output dirToOpen.c_str();
-    std::cout << "Process directory: " << dirToOpen.c_str() << std::endl;
+    //std::cout << "Process directory: " << dirToOpen.c_str() << std::endl;
     output.push(dirToOpen);
 
     if(NULL == dir)
@@ -48,7 +48,7 @@ void ProcessDirectory(std::string directory, stack<string>& output)
     }
 
     //we finished with the directory so remove it from the path
-    system__root_path.resize(system__root_path.length() - 1 - directory.length());
+    __temp_root_path.resize(__temp_root_path.length() - 1 - directory.length());
     closedir(dir);
 }
 
@@ -82,7 +82,7 @@ void ProcessEntity(struct dirent* entity, stack<string>& output)
 
 void ProcessFile(std::string file)
 {
-    std::cout << "Process file     : " << file.c_str() << std::endl;
+    //std::cout << "Process file     : " << file.c_str() << std::endl;
     //if you want to do something with the file add your code here
 }
 

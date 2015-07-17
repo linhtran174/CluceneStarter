@@ -1,0 +1,10 @@
+all:
+	g++ -o cl_demo \
+	IndexFiles.cpp \
+	SearchFiles.cpp \
+	Statistics.cpp \
+	LinhHelperLibrary.cpp \
+	DeleteFiles.cpp \
+	Main.cpp \
+	-lclucene-core \
+	-lclucene-shared

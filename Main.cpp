@@ -5,7 +5,7 @@
 * the GNU Lesser General Public License, as specified in the COPYING file.
 ------------------------------------------------------------------------------*/
 #include "CLucene/StdHeader.h"
-#include "CLucene/_clucene-config.h"
+#include "CLucene/clucene-config.h"
 
 #include "CLucene.h"
 #include "CLucene/util/Misc.h"
@@ -31,7 +31,7 @@
 #include <algorithm>
 
 #include "CLucene/StdHeader.h"
-#include "CLucene/_clucene-config.h"
+#include "CLucene/clucene-config.h"
 
 #include "CLucene.h"
 #include "CLucene/util/CLStreams.h"
@@ -52,18 +52,11 @@ using namespace lucene::document;
 #include "LinhHelperLibrary.h"
 
 //void DeleteFiles(const char* dir);
-void IndexFiles(const char* path, const char* target, const bool clearIndex);
+void IndexFiles(const string& path, const string& target, const bool clearIndex);
 void SearchFiles(const char* index);
 void getStats(const char* directory);
 
 int main( int32_t argc, char** argv ){
-
-	stack<string> directories;
-	string input("/home/linh/Desktop/a");
-	LINH_LIST_DIRECTORY(input,directories);
-	cout << directories.size();
-
-	getchar();
 
 	//Dumper Debug
 	#ifdef _MSC_VER
@@ -79,10 +72,10 @@ int main( int32_t argc, char** argv ){
 		printf("LinhTran's customized Clucene search application\n");
 		printf("____________________________________________________\n");
 		printf("Location of text files to be indexed: ");
-		char files[250];
-		char* tmp = fgets(files,250,stdin);
-		if ( tmp == NULL ) return 1;
-
+		string files;
+		cin >> files;
+		cout << "files: \"" << files << "\"" << endl;
+		
 		/*printf("Location to store the LUCENE index: ");
 		char ndx[250];
 		tmp = fgets(ndx,250,stdin);

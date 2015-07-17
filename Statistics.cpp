@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 #include "CLucene/StdHeader.h"
-#include "CLucene/_clucene-config.h"
+#include "CLucene/clucene-config.h"
 
 #include "CLucene.h"
 #include "CLucene/config/repl_tchar.h"

@@ -13,8 +13,6 @@ using namespace std;
 
 void LINH_LIST_DIRECTORY(std::string, stack<string>&);
 
-
-#include "LinhHelperLibrary.cpp"
 #endif
 
 
