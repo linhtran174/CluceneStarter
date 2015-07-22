@@ -47,6 +47,9 @@ void FileDocument(const char* f, Document* doc){
     // searchable, but no attempt is made to tokenize the field into words.
     //doc->add( *_CLNEW Field(_T("modified"), DateTools::timeToString(f->lastModified()), Field::STORE_YES | Field::INDEX_NO));
 
+    // We can tell the writer to flush at certain occasions
+    //writer->setRAMBufferSizeMB(0.5);
+    //writer->setMaxBufferedDocs(3);
     // Add the contents of the file a field named "contents".  This time we use a tokenized
 	// field so that the text can be searched for words in it.
 

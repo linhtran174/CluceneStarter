@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <stack>
+#include <clucene-config.h>
 
 using namespace std;
 
@@ -14,12 +15,5 @@ void doSomeThing(stack<int>& temp){
 }
 
 int main(){
-	stack<string> output;
-	LINH_LIST_DIRECTORY("/home/linh/Desktop/websites",output);
-	cout<<output.size()<<endl;
-
-	while(!output.empty()){
-		cout << "TOP: " << output.top() << endl;
-		output.pop();
-	}
+	cout<<_T("%d. %s - %f\n");
 }

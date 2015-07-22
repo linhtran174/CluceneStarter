@@ -87,6 +87,8 @@ int main( int32_t argc, char** argv ){
 
 
 		IndexFiles(files,ndx,true);
+		cout << "Index Done!!" << endl;
+		getchar();
 		getStats(ndx);
 		SearchFiles(ndx);
 		//DeleteFiles(ndx);
