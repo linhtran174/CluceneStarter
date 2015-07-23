@@ -1,7 +1,6 @@
 */*
 CMakeCache.txt
 CMakeLists.txt
-README
-!bin
-!CLucene
-!prebuilt-dynamic-library
+!bin/*
+!CLucene/*
+!prebuilt-dynamic-library/*
