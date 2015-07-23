@@ -4,10 +4,10 @@
 * Distributable under the terms of either the Apache License (Version 2.0) or 
 * the GNU Lesser General Public License, as specified in the COPYING file.
 ------------------------------------------------------------------------------*/
-#include "stdafx.h"
 
 #include "CLucene.h"
 #include <iostream>
+#include <stdio.h>
 
 using namespace std;
 using namespace lucene::index;

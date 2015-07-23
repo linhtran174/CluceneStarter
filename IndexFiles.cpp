@@ -15,7 +15,7 @@
 #include <stack>
 
 #include "CLucene/StdHeader.h"
-#include "CLucene/_clucene-config.h"
+#include "CLucene/clucene-config.h"
 
 #include "CLucene.h"
 #include "CLucene/util/CLStreams.h"
@@ -33,6 +33,8 @@ using namespace lucene::util;
 using namespace lucene::store;
 using namespace lucene::document;
 
+#define CL_MAX_DIR 4096
+
 void FileDocument(const char* f, Document* doc){
 
     // Add the path of the file as a field named "path".  Use an indexed and stored field, so
@@ -45,6 +47,9 @@ void FileDocument(const char* f, Document* doc){
     // searchable, but no attempt is made to tokenize the field into words.
     //doc->add( *_CLNEW Field(_T("modified"), DateTools::timeToString(f->lastModified()), Field::STORE_YES | Field::INDEX_NO));
 
+    // We can tell the writer to flush at certain occasions
+    //writer->setRAMBufferSizeMB(0.5);
+    //writer->setMaxBufferedDocs(3);
     // Add the contents of the file a field named "contents".  This time we use a tokenized
 	// field so that the text can be searched for words in it.
 
@@ -89,18 +94,18 @@ void indexDocs(IndexWriter* writer, const char* directory) {
     }
 }
 
-void IndexFiles(const char* path, const char* target, const bool clearIndex){
+void IndexFiles(const string& path, const string& target, const bool clearIndex){
 	IndexWriter* writer = NULL;
 	lucene::analysis::standard::StandardAnalyzer analyzer;
 	
-	if ( !clearIndex && IndexReader::indexExists(target) ){
-		if ( IndexReader::isLocked(target) ){
+	if ( !clearIndex && IndexReader::indexExists(target.c_str()) ){
+		if ( IndexReader::isLocked(target.c_str()) ){
 			printf("Index was locked... unlocking it.\n");
-			IndexReader::unlock(target);
+			IndexReader::unlock(target.c_str());
 		}
-		writer = _CLNEW IndexWriter( target, &analyzer, false);
+		writer = _CLNEW IndexWriter( target.c_str(), &analyzer, false);
 	}else{
-		writer = _CLNEW IndexWriter( target ,&analyzer, true);
+		writer = _CLNEW IndexWriter( target.c_str() ,&analyzer, true);
 	}
 
     //writer->setInfoStream(&std::cout);
@@ -119,14 +124,12 @@ void IndexFiles(const char* path, const char* target, const bool clearIndex){
 
     //List all directories (recursively)
     stack<string> directories;
-    string temp(path);
-    LINH_LIST_DIRECTORY(temp,directories);
+    LINH_LIST_DIRECTORY(path,directories);
 
     cout << "LINH: number of directories: " << directories.size() << endl;
 
     //Index each directory
-	for (int i = 0; i < directories.size(); ++i)
-    {
+	while(!directories.empty()){
         indexDocs(writer, directories.top().c_str());
         directories.pop();
     }

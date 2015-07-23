@@ -8,12 +8,13 @@
 #include <stdio.h>
 
 #include "CLucene/StdHeader.h"
-#include "CLucene/_clucene-config.h"
+#include "CLucene/clucene-config.h"
 
 #include "CLucene.h"
 #include "CLucene/config/repl_tchar.h"
 #include "CLucene/config/repl_wchar.h"
 #include "CLucene/util/Misc.h"
+#include "LinhHelperLibrary.h"
 
 using namespace std;
 using namespace lucene::analysis;
@@ -62,6 +63,8 @@ void SearchFiles(const char* index){
             Document* doc = &h->doc(i);
             //const TCHAR* buf = doc.get(_T("contents"));
             _tprintf(_T("%d. %s - %f\n"), i, doc->get(_T("path")), h->score(i));
+            //print result to web interface:
+
         }
 
         printf("\n\nSearch took: %d ms.\n", srch);
