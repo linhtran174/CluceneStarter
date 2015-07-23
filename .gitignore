@@ -2,4 +2,6 @@
 CMakeCache.txt
 CMakeLists.txt
 README
-cl_demo
+!bin
+!CLucene
+!prebuilt-dynamic-library
