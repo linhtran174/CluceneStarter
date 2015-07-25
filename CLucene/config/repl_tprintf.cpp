@@ -4,7 +4,7 @@
 * Distributable under the terms of either the Apache License (Version 2.0) or 
 * the GNU Lesser General Public License, as specified in the COPYING file.
 ------------------------------------------------------------------------------*/
-#include "CLucene/_SharedHeader.h"
+#include "CLucene/SharedHeader.h"
 #include "CLucene/util/StringBuffer.h"
 
 #include <limits.h> //MB_LEN_MAX
@@ -36,7 +36,7 @@ void lucene_vfnwprintf(StringBuffer* buffer, size_t /*count*/, const wchar_t * f
 				iter += 2;
 				continue;
 			}
-
+			_T
 			iter++;
 			switch (*iter)
 			{

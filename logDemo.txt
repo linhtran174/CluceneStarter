@@ -2,555 +2,6 @@ ____________________________________________________
 LinhTran's customized Clucene search application
 ____________________________________________________
 Location of text files to be indexed: files: "/home/linh/Desktop/websites"
-Process directory: /home/linh/Desktop/websites
-Process file     : backblue.gif
-Process directory: /home/linh/Desktop/websites/Jpori
-Process file     : backblue.gif
-Process directory: /home/linh/Desktop/websites/Jpori/i2.wp.com
-Process directory: /home/linh/Desktop/websites/Jpori/i2.wp.com/cydia.vn
-Process directory: /home/linh/Desktop/websites/Jpori/i2.wp.com/cydia.vn/wp-content
-Process directory: /home/linh/Desktop/websites/Jpori/i2.wp.com/cydia.vn/wp-content/uploads
-Process directory: /home/linh/Desktop/websites/Jpori/i2.wp.com/cydia.vn/wp-content/uploads/2015
-Process directory: /home/linh/Desktop/websites/Jpori/i2.wp.com/cydia.vn/wp-content/uploads/2015/03
-Process file     : 2a502.jpg
-Process file     : 2.jpg
-Process file     : 3a502.jpg
-Process file     : 3.jpg
-Process directory: /home/linh/Desktop/websites/Jpori/hts-cache
-Process file     : winprofile.ini
-Process file     : new.zip
-Process file     : new.txt
-Process file     : readme.txt
-Process file     : doit.log
-Process file     : new.lst
-Process directory: /home/linh/Desktop/websites/Jpori/www.google-analytics.com
-Process file     : analytics.js
-Process directory: /home/linh/Desktop/websites/Jpori/www.tinhte.vn
-Process directory: /home/linh/Desktop/websites/Jpori/www.tinhte.vn/styles
-Process directory: /home/linh/Desktop/websites/Jpori/www.tinhte.vn/styles/default
-Process directory: /home/linh/Desktop/websites/Jpori/www.tinhte.vn/styles/default/xenforo
-Process file     : fade.gif
-Process directory: /home/linh/Desktop/websites/Jpori/cdn.rawgit.com
-Process directory: /home/linh/Desktop/websites/Jpori/cdn.rawgit.com/jackmoore
-Process directory: /home/linh/Desktop/websites/Jpori/cdn.rawgit.com/jackmoore/zoom
-Process directory: /home/linh/Desktop/websites/Jpori/cdn.rawgit.com/jackmoore/zoom/master
-Process file     : jquery.zoom.min.js
-Process file     : hts-log.txt
-Process file     : index.html
-Process file     : cookies.txt
-Process directory: /home/linh/Desktop/websites/Jpori/i0.wp.com
-Process directory: /home/linh/Desktop/websites/Jpori/i0.wp.com/cydia.vn
-Process directory: /home/linh/Desktop/websites/Jpori/i0.wp.com/cydia.vn/wp-content
-Process directory: /home/linh/Desktop/websites/Jpori/i0.wp.com/cydia.vn/wp-content/uploads
-Process directory: /home/linh/Desktop/websites/Jpori/i0.wp.com/cydia.vn/wp-content/uploads/2015
-Process directory: /home/linh/Desktop/websites/Jpori/i0.wp.com/cydia.vn/wp-content/uploads/2015/03
-Process file     : 4a502.jpg
-Process file     : 4.jpg
-Process directory: /home/linh/Desktop/websites/Jpori/i1.wp.com
-Process directory: /home/linh/Desktop/websites/Jpori/i1.wp.com/cydia.vn
-Process directory: /home/linh/Desktop/websites/Jpori/i1.wp.com/cydia.vn/wp-content
-Process directory: /home/linh/Desktop/websites/Jpori/i1.wp.com/cydia.vn/wp-content/uploads
-Process directory: /home/linh/Desktop/websites/Jpori/i1.wp.com/cydia.vn/wp-content/uploads/2015
-Process directory: /home/linh/Desktop/websites/Jpori/i1.wp.com/cydia.vn/wp-content/uploads/2015/03
-Process file     : 1.jpg
-Process file     : 1a502.jpg
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/js
-Process file     : jquery.numeric.min.js
-Process file     : helpers.js
-Process file     : jquery.js
-Process file     : search.js
-Process file     : cart.js
-Process file     : bootstrap.min.js
-Process file     : japan.js
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/auth
-Process file     : login.html
-Process file     : register.html
-Process file     : tu-van-du-hoc.html
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/fonts
-Process file     : glyphicons-halflings-regulard41d.eot
-Process file     : glyphicons-halflings-regular.html
-Process file     : glyphicons-halflings-regular.svg
-Process file     : glyphicons-halflings-regular.eot
-Process file     : glyphicons-halflings-regular-2.html
-Process file     : glyphicons-halflings-regular.woff
-Process file     : shopping-cart.html
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/product
-Process file     : Canon-EOS-Kiss-X3-4CCWH.html
-Process file     : Canon-PowerShot-D30-Aw6wt.html
-Process file     : 42mm-Stainless-Steel-Case-with-Midnight-Blue-Modern-Buckle-c1E8y.html
-Process file     : Canon-EOS-Kiss-X4-jSHIx.html
-Process file     : Canon-EOS-6D-BPJEm.html
-Process file     : iPad-4-16GB-Trắng-S9wqL.html
-Process file     : Canon-EOS-M-Bạc-RpQCB.html
-Process file     : 42mm-Stainless-Steel-Case-with-Milanese-Loop-uTLGt.html
-Process file     : iPad-Air-Trắng-32Gb--mzQJN.html
-Process file     : Canon-EOS-Kiss-X6i-UEkQv.html
-Process file     : Canon-PowerShot-G7X-rdKfB.html
-Process file     : iPad-Air-2-4G-64GB-Grey-mBVEF.html
-Process file     : CANON-AE-1P-64FEY.html
-Process file     : Apple-Watch-Sport-38mm-Blue-Y6tOE.html
-Process file     : Canon-EOS-M-Đỏ-AGAXu.html
-Process file     : 42mm-Stainless-Steel-Case-with-Black-Modern-Buckle-EMyQd.html
-Process file     : iPhone-6-Plus-128Gb-Vàng-Lock-SZBGE.html
-Process file     : Canon-Kiss-X7i-ds8p5.html
-Process file     : 38mm-Stainless-Steel-Case-with-Black-Sport-Band-x20oI.html
-Process file     : Canon-EOS-40D-u84Ps.html
-Process file     : Canon-EOS-M3-Trắng-LCrmb.html
-Process file     : Canon-EOS-M3-Đen-Qqnga.html
-Process file     : 42mm-Stainless-Steel-Case-with-Black-Sport-Band-MNZbj.html
-Process file     : iPad-Air-2-16GB-GOLD-mxYeX.html
-Process file     : Canon-PowerShot-G15-pAALG.html
-Process file     : 38mm-Stainless-Steel-Case-with-Midnight-Blue-Modern-Buckle-O8Kez.html
-Process file     : 38mm-Stainless-Steel-Case-with-White-Sport-Band-R3g5V.html
-Process file     : Test-Product-3Vdp6.html
-Process file     : iPhone-6-64GB-Đen-Lock-cxQHm.html
-Process file     : iPhone-6-64GB-Trắng-Lock-mpcpE.html
-Process file     : iPad-Mini-1-Trắng-32Gb--WobzB.html
-Process file     : iPhone-6-64GB-Vàng-Lock-0lrut.html
-Process file     : CANON-A1-5jVnH.html
-Process file     : Apple-Watch-Sport-42mm-White-7UAdO.html
-Process file     : iPad-mini-3-16GB-Trắng-X6SdK.html
-Process file     : Canon-EOS-7D-DioH0.html
-Process file     : iPad-3-16GB-Trắng-ZarDv.html
-Process file     : iPad-Mini-Retina-32GB-Trắng-F1OFr.html
-Process file     : Canon-EOS-Kiss-X70-uDpLh.html
-Process file     : Canon-EOS-Kiss-X2-Qn2Wm.html
-Process file     : CANON-7-mvqF4.html
-Process file     : Canon-EOS-M2-Đen-uyB2v.html
-Process file     : Canon-PowerShot-G16-0fM4l.html
-Process file     : Apple-Watch-Sport-38mm-Black-z1eCG.html
-Process file     : Apple-Watch-Sport-42mm-Blue-uz5n5.html
-Process file     : iPhone-6-Plus-64GB-Trắng-Lock-iouny.html
-Process file     : 38mm-Stainless-Steel-Case-with-Black-Modern-Buckle-V6Yjw.html
-Process file     : Canon-PowerShot-N-hiMl5.html
-Process file     : Canon-PowerShot-G1X-O8bNW.html
-Process file     : Canon-EOS-Kiss-X7i-G9fwM.html
-Process file     : Canon-EOS-5D-nL6ga.html
-Process file     : 38mm-Stainless-Steel-Case-with-Milanese-Loop-1pw8p.html
-Process file     : iPad-mini-retina-16GB-Grey-WffyU.html
-Process file     : Apple-Watch-Sport-42mm-Black--4ZgL7.html
-Process file     : iPad-mini-3-16GB-GOLD-04YsG.html
-Process file     : Canon-EOS-M-Đen-ZEWyv.html
-Process file     : iPhone-6-128Gb-Vàng-Lock-rr7rp.html
-Process file     : Canon-PowerShot-G12-wb8Wk.html
-Process file     : iPhone-6-Plus-16Gb-Vàng-Lock--3i1IU.html
-Process file     : 42mm-Stainless-Steel-Case-with-White-Sport-Band-h5hB5.html
-Process file     : iPhone-6-16Gb-Vàng-Lock-fbHq1.html
-Process file     : Apple-Watch-Sport-38mm-White-HAHkw.html
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/bai-viet
-Process file     : bai-viet-so-1-test.html
-Process file     : cach-fix-iphone-lock-da-jaibreck-de-dung-nhu-quoc-te.html
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/categories
-Process file     : ipad4658.html
-Process file     : huong-dan.html
-Process file     : van-hoa.html
-Process file     : camera9ba9.html
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/categories/watch
-Process file     : index4658.html
-Process file     : index2679.html
-Process file     : general.html
-Process file     : camera2679.html
-Process file     : uniqlo.html
-Process file     : dong-ho.html
-Process file     : watch2679.html
-Process file     : ipad.html
-Process file     : may-anh.html
-Process file     : camera4658.html
-Process file     : watch4658.html
-Process file     : camera.html
-Process file     : camerafdb0.html
-Process file     : ipad2679.html
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/categories/camera
-Process file     : index4658.html
-Process file     : indexfdb0.html
-Process file     : index2679.html
-Process file     : index9ba9.html
-Process file     : macbook.html
-Process file     : macpro.html
-Process file     : macmini.html
-Process file     : imac.html
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/categories/ipad
-Process file     : index4658.html
-Process file     : index2679.html
-Process file     : iphone.html
-Process file     : watch.html
-Process file     : order-amazon.html
-Process file     : dau-gia-yahoo.html
-Process file     : bao-hanh.html
-Process file     : index.html
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/plugins
-Process file     : jquery.bxslider.min.js
-Process file     : jquery.bxslider.css
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/plugins/images
-Process file     : controls.png
-Process file     : bx_loader.gif
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/password
-Process file     : email.html
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/img
-Process file     : logo.ico
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/img/upload
-Process file     : 1432373204_iPhone 6 GOLD.jpg
-Process file     : 1432710910_l-1_result_result.jpg
-Process file     : 1432372280_IMG_3574_result.jpg
-Process file     : 1432713135_l_result_result.jpg
-Process file     : 1432370134_Mini 3.jpg
-Process file     : 1432710616_l-12_result_result.jpg
-Process file     : 1432711751_l-9_result_result.jpg
-Process file     : 1432698085_IMG_3636_result.jpg
-Process file     : 1432712402_l_result_result.jpg
-Process file     : 1432713351_l-9_result_result.jpg
-Process file     : 1432710757_l_result_result.jpg
-Process file     : 1432354842_IMG_3522_result.jpg
-Process file     : 1432710249_l-2_result_result.jpg
-Process file     : 1432786159_w38ss-sbbk-sel_GEO_US_result_result.jpg
-Process file     : 1432714178_IMG_3682_result_result.jpg
-Process file     : 1432785203_s42si-sbwh-sel_GEO_US_result_result.jpg
-Process file     : 1432714002_IMG_3677_result_result.jpg
-Process file     : 1432711867_l-1_result_result.jpg
-Process file     : 1432711890_l-2_result_result.jpg
-Process file     : 1432712153_l-7_result_result.jpg
-Process file     : 1432372243_IMG_3564_result.jpg
-Process file     : 1432711363_l-2_result_result.jpg
-Process file     : 1432711343_l_result_result.jpg
-Process file     : 1432713528_l-3_result_result.jpg
-Process file     : 1432710080_l-3_result_result.jpg
-Process file     : 1432710097_l-5_result_result.jpg
-Process file     : 1432710590_l-5_result_result.jpg
-Process file     : 1432355871_IMG_3533_result.jpg
-Process file     : 1432371466_IMG_3579_result.jpg
-Process file     : 1432713322_l-2_result_result.jpg
-Process file     : 1432372331_IMG_3536_result.jpg
-Process file     : 1432712261_l-3_result_result.jpg
-Process file     : 1432704994_IMG_3673_result.jpg
-Process file     : 1432711360_l-1_result_result.jpg
-Process file     : 1432711373_l-4_result_result.jpg
-Process file     : 1432698376_IMG_3631_result.jpg
-Process file     : 1432372342_IMG_3540_result.jpg
-Process file     : 1432711913_l-7_result_result.jpg
-Process file     : 1432709508_l-3_result_result.jpg
-Process file     : 1432711903_l-5_result_result.jpg
-Process file     : 1432372592_IMG_3548_result.jpg
-Process file     : 1432356015_IMG_3535_result.jpg
-Process file     : 1432711907_l-6_result_result.jpg
-Process file     : 1433230193_iphone6-plus-gold.jpg
-Process file     : 1432713175_l-6_result_result.jpg
-Process file     : 1432711746_l-8_result_result.jpg
-Process file     : 1432713072_l-8_result_result.jpg
-Process file     : 1432709766_l-3_result_result.jpg
-Process file     : 1432713346_l-8_result_result.jpg
-Process file     : 1432713337_l-6_result_result.jpg
-Process file     : 1432354814_IMG_3523_result.jpg
-Process file     : 1432710581_l-3_result_result.jpg
-Process file     : 1432712671_l-4_result_result.jpg
-Process file     : 1432704966_IMG_3674_result.jpg
-Process file     : 1432709723_l_result_result.jpg
-Process file     : 1432710382_l-8_result_result.jpg
-Process file     : 1432713046_l-2_result_result.jpg
-Process file     : 1432712417_l-5_result_result.jpg
-Process file     : 1433230935_iphone6-gold.jpg
-Process file     : 1432712941_l-8_result_result.jpg
-Process file     : 1432711974_l_result_result.jpg
-Process file     : 1432709771_l-4_result_result.jpg
-Process file     : 1432373244_IMG_3506_result.jpg
-Process file     : 1432710260_l-3_result_result.jpg
-Process file     : 1432712529_l-3_result_result.jpg
-Process file     : 1432711577_l-6_result_result.jpg
-Process file     : 1432372377_IMG_3546_result.jpg
-Process file     : 1432711268_l-8_result_result.jpg
-Process file     : 1432712269_l-5_result_result.jpg
-Process file     : 1432371303_iPad 3.jpg
-Process file     : 1432713185_l-9_result_result.jpg
-Process file     : 1432549840_s42si-sbbl-detail_GEO_US_result_result.jpg
-Process file     : 1432713063_l-6_result_result.jpg
-Process file     : 1432711248_l-3_result_result.jpg
-Process file     : 1432710935_l-3_result_result.jpg
-Process file     : 1432713166_l-4_result_result.jpg
-Process file     : 1432712019_l-9_result_result.jpg
-Process file     : 1432786204_w42ss-sbbk-sel_result_result.jpg
-Process file     : 1432712433_l-2_result_result.jpg
-Process file     : 1432712254_l-2_result_result.jpg
-Process file     : 1432786611_w38ss-mbbk-sel_result_result.jpg
-Process file     : 1432703514_IMG_3674_result.jpg
-Process file     : 1433230083_iphone6-silver.jpg
-Process file     : 1432354856_IMG_3521_result.jpg
-Process file     : 1432711756_l-10_result_result.jpg
-Process file     : 1432712919_l-3_result_result.jpg
-Process file     : 1432710280_l-5_result_result.jpg
-Process file     : 1432713499_l_result_result.jpg
-Process file     : 1432711712_l-2_result_result.jpg
-Process file     : 1432714185_IMG_3684_result_result.jpg
-Process file     : 1432710595_l-6_result_result.jpg
-Process file     : 1432786004_w38ss-sbwh-sel_result_result.jpg
-Process file     : 1432711263_l-7_result_result.jpg
-Process file     : 1432711886_l_result_result.jpg
-Process file     : 1432713053_l-4_result_result.jpg
-Process file     : 1432355852_IMG_3530_result.jpg
-Process file     : 1432712914_l-2_result_result.jpg
-Process file     : 1432372072_IMG_3565_result.jpg
-Process file     : 1432705106_IMG_3673_result.jpg
-Process file     : 1432705072_IMG_3671_result.jpg
-Process file     : 1432711132_l-9_result_result.jpg
-Process file     : 1432712519_l-1_result_result.jpg
-Process file     : 1432709796_l-8_result_result.jpg
-Process file     : 1432373136_IMG_3496_result.jpg
-Process file     : 1432712003_l-4_result_result.jpg
-Process file     : 1432709784_l-6_result_result.jpg
-Process file     : 1432712426_l-6_result_result.jpg
-Process file     : 1432703524_IMG_3672_result.jpg
-Process file     : 1432373253_IMG_3509_result.jpg
-Process file     : 1432710387_l-9_result_result.jpg
-Process file     : 1432710948_l-7_result_result.jpg
-Process file     : 1432711559_l-2_result_result.jpg
-Process file     : 1432711720_l-4_result_result.jpg
-Process file     : 1432711572_l-5_result_result.jpg
-Process file     : 1432713438_l-8_result_result.jpg
-Process file     : 1432712411_l-4_result_result.jpg
-Process file     : 1432710927_l_result_result.jpg
-Process file     : 1432712140_l-3_result_result.jpg
-Process file     : 1432549725_s38si-sbbl-detail_GEO_US_result_result.jpg
-Process file     : 1432711725_l-5_result_result.jpg
-Process file     : 1432710392_l-12_result_result.jpg
-Process file     : 1432710939_l-4_result_result.jpg
-Process file     : 1432713161_l-3_result_result.jpg
-Process file     : 1432713977_IMG_3676_result_result.jpg
-Process file     : 1432711128_l-8_result_result.jpg
-Process file     : 1432709533_l-6_result_result.jpg
-Process file     : 1432373356_IMG_3511_result.jpg
-Process file     : 1432713539_l-6_result_result.jpg
-Process file     : 1432370029_mini 2 Grey.jpg
-Process file     : 1432711259_l-5_result_result.jpg
-Process file     : 1432373363_IMG_3512_result.jpg
-Process file     : 1432710809_l-7_result_result.jpg
-Process file     : 1432711715_l-3_result_result.jpg
-Process file     : 1432785160_s38si-sbwh-sel_GEO_US_result_result.jpg
-Process file     : 1432710788_l-3_result_result.jpg
-Process file     : 1432710228_l_result_result.jpg
-Process file     : 1432712534_l-4_result_result.jpg
-Process file     : 1432711113_l-5_result_result.jpg
-Process file     : 1432712077_l_result_result.jpg
-Process file     : 1432372208_IMG_3579_result.jpg
-Process file     : 1432711369_l-3_result_result.jpg
-Process file     : 1432712232_l_result_result.jpg
-Process file     : 1432711402_l-11_result_result.jpg
-Process file     : 1432712158_l-8_result_result.jpg
-Process file     : 1433230595_iphone6-gold.jpg
-Process file     : 1432699741_IMG_3648_result.jpg
-Process file     : 1432709750_l-1_result_result.jpg
-Process file     : 1432369909_iPad 4.jpg
-Process file     : 1432710608_l-9_result_result.jpg
-Process file     : 1432711917_l-8_result_result.jpg
-Process file     : 1432372731_IMG_3558_result.jpg
-Process file     : 1432372193_IMG_3577_result.jpg
-Process file     : 1432711387_l-8_result_result.jpg
-Process file     : 1432372750_IMG_3559_result.jpg
-Process file     : 1432712874_l_result_result.jpg
-Process file     : 1432711590_l-9_result_result.jpg
-Process file     : 1432373262_IMG_3507_result.jpg
-Process file     : 1432697877_IMG_3644_result.jpg
-Process file     : 1434160835_Screenshot from 2015-05-18 19_08_58.png
-Process file     : 1432712015_l-8_result_result.jpg
-Process file     : 1432711224_l_result_result.jpg
-Process file     : 1432712818_l-2_result_result.jpg
-Process file     : 1432712406_l-3_result_result.jpg
-Process file     : 1432355793_IMG_3526_result.jpg
-Process file     : 1432710109_l-7_result_result.jpg
-Process file     : 1432786351_w42ss-llbl-sel_result_result.jpg
-Process file     : 1432699721_IMG_3653_result.jpg
-Process file     : 1432712686_l-6_result_result.jpg
-Process file     : 1432714181_IMG_3683_result_result.jpg
-Process file     : 1432373121_IMG_3498_result.jpg
-Process file     : 1432711994_l-2_result_result.jpg
-Process file     : 1432714013_IMG_3680_result_result.jpg
-Process file     : 1432712136_l-2_result_result.jpg
-Process file     : 1432697772_IMG_3627_result.jpg
-Process file     : 1432703465_IMG_3670_result_result.jpg
-Process file     : 1432709378_l_result_result.jpg
-Process file     : 1432372611_IMG_3550_result.jpg
-Process file     : 1432712937_l-7_result_result.jpg
-Process file     : 1432710944_l-5_result_result.jpg
-Process file     : 1432711278_l-10_result_result.jpg
-Process file     : 1432710121_l-9_result_result.jpg
-Process file     : 1432713523_l-2_result_result.jpg
-Process file     : 1432712023_l-10_result_result.jpg
-Process file     : 1432711586_l-8_result_result.jpg
-Process file     : 1432713442_l-9_result_result.jpg
-Process file     : 1432355839_IMG_3529_result.jpg
-Process file     : 1432710026_l_result_result.jpg
-Process file     : 1432709516_l-4_result_result.jpg
-Process file     : 1432712932_l-6_result_result.jpg
-Process file     : 1432713535_l-5_result_result.jpg
-Process file     : 1432714151_IMG_3569_result_result.jpg
-Process file     : 1432711708_l-1_result_result.jpg
-Process file     : 1432786648_w42ss-llbk-sel_result_result.jpg
-Process file     : 1432711693_l-1_result_result.jpg
-Process file     : 1432710792_l-4_result_result.jpg
-Process file     : 1432709542_l-7_result_result.jpg
-Process file     : 1432713998_IMG_3675_result_result.jpg
-Process file     : 1432712707_l-8_result_result.jpg
-Process file     : 1432710821_l-5_result_result.jpg
-Process file     : 1432713417_l-2_result_result.jpg
-Process file     : 1432710612_l-11_result_result.jpg
-Process file     : 1432711391_l-9_result_result.jpg
-Process file     : 1432711065_l-1_result_result.jpg
-Process file     : 1432711554_l-1_result_result.jpg
-Process file     : 1432711893_l-3_result_result.jpg
-Process file     : 1432712149_l-5_result_result.jpg
-Process file     : 1432713332_l-5_result_result.jpg
-Process file     : 1432712380_l-1_result_result.jpg
-Process file     : 1432710087_l-4_result_result.jpg
-Process file     : 1432712909_l-1_result_result.jpg
-Process file     : 1432713156_l-2_result_result.jpg
-Process file     : 1432711921_l-9_result_result.jpg
-Process file     : 1432712499_l-2_result_result.jpg
-Process file     : 1432713327_l-4_result_result.jpg
-Process file     : 1432710958_l-8_result_result.jpg
-Process file     : 1432372086_IMG_3575_result.jpg
-Process file     : 1432711141_l-11_result_result.jpg
-Process file     : 1432710599_l-7_result_result.jpg
-Process file     : 1432712132_l-1_result_result.jpg
-Process file     : 1432711567_l-4_result_result.jpg
-Process file     : 1432710577_l-2_result_result.jpg
-Process file     : 1433230101_iphone6-gold.jpg
-Process file     : 1432711527_l_result_result.jpg
-Process file     : 1432373346_IMG_3510_result.jpg
-Process file     : 1432713172_l-5_result_result.jpg
-Process file     : 1432373231_iPhone 6 Sliver.jpg
-Process file     : 1432713042_l-1_result_result.jpg
-Process file     : 1432710586_l-4_result_result.jpg
-Process file     : 1432714009_IMG_3679_result_result.jpg
-Process file     : 1432786464_w38ss-ml-sel_result_result.jpg
-Process file     : 1432710573_l-1_result_result.jpg
-Process file     : 1432712274_l-7_result_result.jpg
-Process file     : 1432713058_l-5_result_result.jpg
-Process file     : 1432710476_l_result_result.jpg
-Process file     : 1432711999_l-3_result_result.jpg
-Process file     : 1432713354_l-1_result_result.jpg
-Process file     : 1432710814_l-8_result_result.jpg
-Process file     : 1433230042_iphone6-gray.jpg
-Process file     : 1432713422_l-4_result_result.jpg
-Process file     : 1432713079_l-11_result_result.jpg
-Process file     : 1432711396_l-10_result_result.jpg
-Process file     : 1432711581_l-7_result_result.jpg
-Process file     : 1432710603_l-8_result_result.jpg
-Process file     : 1432711091_l_result_result.jpg
-Process file     : 1432712621_l_result_result.jpg
-Process file     : 1432712927_l-4_result_result.jpg
-Process file     : 1432372297_IMG_3573_result.jpg
-Process file     : 1432711118_l-6_result_result.jpg
-Process file     : 1432709777_l-5_result_result.jpg
-Process file     : 1432373310_IMG_3508_result.jpg
-Process file     : 1432709491_l-1_result_result.jpg
-Process file     : 1432710373_l-6_result_result.jpg
-Process file     : 1432712814_l-1_result_result.jpg
-Process file     : 1432712523_l_result_result.jpg
-Process file     : 1432372352_IMG_3543_result.jpg
-Process file     : 1432372620_IMG_3552_result.jpg
-Process file     : 1432710104_l-6_result_result.jpg
-Process file     : 1432712011_l-7_result_result.jpg
-Process file     : 1432372602_IMG_3549_result.jpg
-Process file     : 1432713520_l-1_result_result.jpg
-Process file     : 1432372769_IMG_3560_result.jpg
-Process file     : 1432711990_l-1_result_result.jpg
-Process file     : 1432709576_l-8_result_result.jpg
-Process file     : 1432713412_l-1_result_result.jpg
-Process file     : 1432709790_l-7_result_result.jpg
-Process file     : 1432712007_l-5_result_result.jpg
-Process file     : 1432710931_l-2_result_result.jpg
-Process file     : 1432711137_l-10_result_result.jpg
-Process file     : 1432713179_l-7_result_result.jpg
-Process file     : 1432699730_IMG_3650_result.jpg
-Process file     : 1432372676_IMG_3554_result.jpg
-Process file     : 1432712679_l-5_result_result.jpg
-Process file     : 1432712281_l-8_result_result.jpg
-Process file     : 1432786035_w42ss-sbwh-sel_GEO_US_result_result.jpg
-Process file     : 1432713426_l-5_result_result.jpg
-Process file     : 1432713544_l-7_result_result.jpg
-Process file     : 1432372252_IMG_3574_result.jpg
-Process file     : 1432704981_IMG_3670_result.jpg
-Process file     : 1432697793_IMG_3635_result.jpg
-Process file     : 1432710067_l-1_result_result.jpg
-Process file     : 1432714005_IMG_3678_result_result.jpg
-Process file     : 1432372362_IMG_3544_result.jpg
-Process file     : 1432369974_mini 2 trắng.jpg
-Process file     : 1433230886_iphone6-plus-gold.jpg
-Process file     : 1432712663_l-2_result_result.jpg
-Process file     : 1432712792_l_result_result.jpg
-Process file     : 1432713341_l-7_result_result.jpg
-Process file     : 1432354876_IMG_3518_result.jpg
-Process file     : 1432975620_iphone6-plus-box-silver-2014.jpg
-Process file     : 1432712947_l-12_result_result.jpg
-Process file     : 1432712658_l-1_result_result.jpg
-Process file     : 1432713431_l-6_result_result.jpg
-Process file     : 1432711898_l-4_result_result.jpg
-Process file     : 1432713532_l-4_result_result.jpg
-Process file     : 1432373265_IMG_3507_result.jpg
-Process file     : 1432712421_l-7_result_result.jpg
-Process file     : 1432373146_IMG_3500_result.jpg
-Process file     : 1432711244_l-2_result_result.jpg
-Process file     : 1432710803_l-6_result_result.jpg
-Process file     : 1432712823_l-3_result_result.jpg
-Process file     : 1432372263_IMG_3576_result.jpg
-Process file     : 1432373333_iPhone 6 Grey.jpg
-Process file     : 1432355120_IMG_3525_result.jpg
-Process file     : 1432711110_l-4_result_result.jpg
-Process file     : 1432712144_l-4_result_result.jpg
-Process file     : 1432710377_l-7_result_result.jpg
-Process file     : 1432355140_IMG_3524_result.jpg
-Process file     : 1432711382_l-7_result_result.jpg
-Process file     : 1432712539_l-5_result_result.jpg
-Process file     : 1432562073_s38sg-sbbk-detail_GEO_US_result_result.jpg
-Process file     : 1432711377_l-5_result_result.jpg
-Process file     : 1432710243_l-1_result_result.jpg
-Process file     : 1432355906_IMG_3534_result.jpg
-Process file     : 1432713068_l-7_result_result.jpg
-Process file     : 1432713434_l-7_result_result.jpg
-Process file     : 1432709525_l-5_result_result.jpg
-Process file     : 1432706280_Cannon 7 Avatar.jpg
-Process file     : 1432711240_l-1_result_result.jpg
-Process file     : 1432711739_l-7_result_result.jpg
-Process file     : 1432709757_l-2_result_result.jpg
-Process file     : 1432712266_l-4_result_result.jpg
-Process file     : 1432711123_l-7_result_result.jpg
-Process file     : 1432711272_l-9_result_result.jpg
-Process file     : 1432373380_IMG_3513_result.jpg
-Process file     : 1432372720_IMG_3556_result.jpg
-Process file     : 1432710777_l-1_result_result.jpg
-Process file     : 1432710832_l-8_result_result.jpg
-Process file     : 1432372710_IMG_3555_result.jpg
-Process file     : 1432712546_l-6_result_result.jpg
-Process file     : 1432714175_IMG_3681_result_result.jpg
-Process file     : 1432712250_l-1_result_result.jpg
-Process file     : 1432699756_IMG_3646_result.jpg
-Process file     : 1432373095_IMG_3500_result.jpg
-Process file     : 1432713399_l_result_result.jpg
-Process file     : 1432710115_l-8_result_result.jpg
-Process file     : 1432550002_s42sg-sbbk-detail_GEO_US_result_result.jpg
-Process file     : 1432713318_l-1_result_result.jpg
-Process file     : 1432711254_l-4_result_result.jpg
-Process file     : 1432710266_l-4_result_result.jpg
-Process file     : 1432786496_w42ss-ml-sel_GEO_US_result_result.jpg
-Process file     : 1432709500_l-2_result_result.jpg
-Process file     : 1432710784_l-2_result_result.jpg
-Process file     : 1432713026_l_result_result.jpg
-Process file     : 1432710073_l-2_result_result.jpg
-Process file     : 1432713152_l-1_result_result.jpg
-Process file     : 1432786304_w38ss-mbbl-sel_result_result.jpg
-Process file     : brandname64.png
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/img/static
-Process file     : registration-banner.jpg
-Process file     : black-sunday-banner.jpg
-Process file     : slogan-banner.jpg
-Process directory: /home/linh/Desktop/websites/Jpori/jpori.com/css
-Process file     : bootstrap.min.css
-Process file     : product.css
-Process file     : header.css
-Process file     : common.css
-Process file     : shop.css
-Process file     : search.css
-Process file     : utilities.css
-Process file     : fade.gif
-Process file     : hts-log.txt
 LINH: number of directories: 47
 adding file 1: /home/linh/Desktop/websites/Jpori/jpori.com/css/bootstrap.min.css
 adding file 2: /home/linh/Desktop/websites/Jpori/jpori.com/css/product.css
@@ -1053,17 +504,93 @@ adding file 4: /home/linh/Desktop/websites/Jpori/index.html
 adding file 5: /home/linh/Desktop/websites/Jpori/cookies.txt
 adding file 1: /home/linh/Desktop/websites/backblue.gif
 adding file 2: /home/linh/Desktop/websites/fade.gif
-adding file 3: /home/linh/Desktop/websites/hts-log.txt
-Indexing took: 1875 ms.
+Indexing took: 2037 ms.
 
+Index Done!!
 Statistics for /home/linh/Desktop/index
 ==================================
-Max Docs: 502
-Num Docs: 502
+Max Docs: 501
+Num Docs: 501
 Current Version: 0.0
-Term count: 10913
+Term count: 10912
 
-Enter query string: 
+Enter query string: Searching for: iphone 6
 
-Time taken: 19076
-
+0. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPhone-6-64GB-Trrrrng-Lock-mpcpE.html - -9223372036854775808.0000000-922337203685477580
+1. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPhone-6-64GB---en-Lock-cxQHm.html - -937684.37685841
+2. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPhone-6-64GB-VVVng-Lock-0lrut.html - -937684.37685841
+3. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPhone-6-Plus-64GB-Trrrrng-Lock-iouny.html - -937684.37685841
+4. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPhone-6-Plus-16Gb-VVVng-Lock--3i1IU.html - 0.0
+5. /home/linh/Desktop/websites/Jpori/jpori.com/categories/iphone.html - 0.0
+6. /home/linh/Desktop/websites/Jpori/hts-cache/new.lst - 0.0
+7. /home/linh/Desktop/websites/Jpori/jpori.com/index.html - 0.0
+8. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-6D-BPJEm.html - 0.0
+9. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPhone-6-Plus-128Gb-VVVng-Lock-SZBGE.html - 0.0
+10. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPhone-6-128Gb-VVVng-Lock-rr7rp.html - 0.0
+11. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPhone-6-16Gb-VVVng-Lock-fbHq1.html - 0.0
+12. /home/linh/Desktop/websites/Jpori/jpori.com/plugins/images/controls.png - -9223372036854775808.0000000-922337203685477580
+13. /home/linh/Desktop/websites/Jpori/hts-log.txt - -9223372036854775808.0000000-922337203685477580
+14. /home/linh/Desktop/websites/Jpori/backblue.gif - -9223372036854775808.0000000-922337203685477580
+15. /home/linh/Desktop/websites/backblue.gif - -9223372036854775808.0000000-922337203685477580
+16. /home/linh/Desktop/websites/Jpori/jpori.com/auth/register.html - -9223372036854775808.0000000-922337203685477580
+17. /home/linh/Desktop/websites/Jpori/jpori.com/fonts/glyphicons-halflings-regular.woff - -9223372036854775808.0000000-922337203685477580
+18. /home/linh/Desktop/websites/Jpori/jpori.com/auth/login.html - -9223372036854775808.0000000-922337203685477580
+19. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-PowerShot-G15-pAALG.html - 0.0
+20. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-PowerShot-G16-0fM4l.html - 0.0
+21. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-PowerShot-G1X-O8bNW.html - 0.0
+22. /home/linh/Desktop/websites/Jpori/hts-cache/new.txt - 0.0
+23. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-Kiss-X6i-UEkQv.html - 0.0
+24. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-PowerShot-G7X-rdKfB.html - 0.0
+25. /home/linh/Desktop/websites/Jpori/jpori.com/product/CANON-AE-1P-64FEY.html - 0.0
+26. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-Kiss-X7i-ds8p5.html - 0.0
+27. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-M3-Trrrrng-LCrmb.html - 0.0
+28. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-M3---en-Qqnga.html - 0.0
+29. /home/linh/Desktop/websites/Jpori/jpori.com/product/CANON-A1-5jVnH.html - 0.0
+30. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-Kiss-X70-uDpLh.html - 0.0
+31. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-Kiss-X2-Qn2Wm.html - 0.0
+32. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-M2---en-uyB2v.html - 0.0
+33. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-PowerShot-N-hiMl5.html - 0.0
+34. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-PowerShot-G12-wb8Wk.html - 0.0
+35. /home/linh/Desktop/websites/Jpori/jpori.com/img/upload/1434160835_Screenshot from 2015-05-18 19_08_58.png - 0.0
+36. /home/linh/Desktop/websites/Jpori/jpori.com/password/email.html - 0.0
+37. /home/linh/Desktop/websites/Jpori/jpori.com/bai-viet/cach-fix-iphone-lock-da-jaibreck-de-dung-nhu-quoc-te.html - 0.0
+38. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPad-4-16GB-Trrrrng-S9wqL.html - 0.0
+39. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-M-------AGAXu.html - 0.0
+40. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-40D-u84Ps.html - 0.0
+41. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-M---en-ZEWyv.html - 0.0
+42. /home/linh/Desktop/websites/Jpori/jpori.com/fonts/glyphicons-halflings-regular.html - 0.0
+43. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-7D-DioH0.html - 0.0
+44. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-5D-nL6ga.html - 0.0
+45. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-PowerShot-D30-Aw6wt.html - 0.0
+46. /home/linh/Desktop/websites/Jpori/jpori.com/product/42mm-Stainless-Steel-Case-with-Midnight-Blue-Modern-Buckle-c1E8y.html - 0.0
+47. /home/linh/Desktop/websites/Jpori/jpori.com/product/42mm-Stainless-Steel-Case-with-Milanese-Loop-uTLGt.html - 0.0
+48. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPad-Air-Trrrrng-32Gb--mzQJN.html - 0.0
+49. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPad-Air-2-4G-64GB-Grey-mBVEF.html - 0.0
+50. /home/linh/Desktop/websites/Jpori/jpori.com/product/Apple-Watch-Sport-38mm-Blue-Y6tOE.html - 0.0
+51. /home/linh/Desktop/websites/Jpori/jpori.com/product/42mm-Stainless-Steel-Case-with-Black-Modern-Buckle-EMyQd.html - 0.0
+52. /home/linh/Desktop/websites/Jpori/jpori.com/product/38mm-Stainless-Steel-Case-with-Black-Sport-Band-x20oI.html - 0.0
+53. /home/linh/Desktop/websites/Jpori/jpori.com/product/42mm-Stainless-Steel-Case-with-Black-Sport-Band-MNZbj.html - 0.0
+54. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPad-Air-2-16GB-GOLD-mxYeX.html - 0.0
+55. /home/linh/Desktop/websites/Jpori/jpori.com/product/38mm-Stainless-Steel-Case-with-Midnight-Blue-Modern-Buckle-O8Kez.html - 0.0
+56. /home/linh/Desktop/websites/Jpori/jpori.com/product/38mm-Stainless-Steel-Case-with-White-Sport-Band-R3g5V.html - 0.0
+57. /home/linh/Desktop/websites/Jpori/jpori.com/product/Test-Product-3Vdp6.html - 0.0
+58. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPad-Mini-1-Trrrrng-32Gb--WobzB.html - 0.0
+59. /home/linh/Desktop/websites/Jpori/jpori.com/product/Apple-Watch-Sport-42mm-White-7UAdO.html - 0.0
+60. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPad-3-16GB-Trrrrng-ZarDv.html - 0.0
+61. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPad-Mini-Retina-32GB-Trrrrng-F1OFr.html - 0.0
+62. /home/linh/Desktop/websites/Jpori/jpori.com/product/CANON-7-mvqF4.html - 0.0
+63. /home/linh/Desktop/websites/Jpori/jpori.com/product/Apple-Watch-Sport-38mm-Black-z1eCG.html - 0.0
+64. /home/linh/Desktop/websites/Jpori/jpori.com/product/Apple-Watch-Sport-42mm-Blue-uz5n5.html - 0.0
+65. /home/linh/Desktop/websites/Jpori/jpori.com/product/38mm-Stainless-Steel-Case-with-Black-Modern-Buckle-V6Yjw.html - 0.0
+66. /home/linh/Desktop/websites/Jpori/jpori.com/product/38mm-Stainless-Steel-Case-with-Milanese-Loop-1pw8p.html - 0.0
+67. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPad-mini-retina-16GB-Grey-WffyU.html - 0.0
+68. /home/linh/Desktop/websites/Jpori/jpori.com/product/Apple-Watch-Sport-42mm-Black--4ZgL7.html - 0.0
+69. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPad-mini-3-16GB-GOLD-04YsG.html - 0.0
+70. /home/linh/Desktop/websites/Jpori/jpori.com/product/42mm-Stainless-Steel-Case-with-White-Sport-Band-h5hB5.html - 0.0
+71. /home/linh/Desktop/websites/Jpori/jpori.com/product/Apple-Watch-Sport-38mm-White-HAHkw.html - 0.0
+72. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-Kiss-X3-4CCWH.html - -9223372036854775808.0000000-922337203685477580
+73. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-Kiss-X4-jSHIx.html - -9223372036854775808.0000000-922337203685477580
+74. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-M-BBBBc-RpQCB.html - -9223372036854775808.0000000-922337203685477580
+75. /home/linh/Desktop/websites/Jpori/jpori.com/product/iPad-mini-3-16GB-Trrrrng-X6SdK.html - -9223372036854775808.0000000-922337203685477580
+76. /home/linh/Desktop/websites/Jpori/jpori.com/product/Canon-EOS-Kiss-X7i-G9fwM.html - -9223372036854775808.0000000-922337203685477580
+77. /home/linh/Desktop/websites/Jpori/jpori.com/categories/camerafdb0.html - -9223372036854775808.0000000-92233720368547

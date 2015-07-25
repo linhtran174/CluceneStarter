@@ -1,19 +1,21 @@
+/* fwprintf example */
 #include <stdio.h>
-#include "LinhHelperLibrary.h"
-#include <iostream>
-#include <string>
-#include <stack>
-#include <clucene-config.h>
+#include <wchar.h>
 
-using namespace std;
+int main ()
+{
+   FILE * pFile;
+   int n;
+   wchar_t name [100];
 
-void doSomeThing(stack<int>& temp){
-	temp.push(1);
-	temp.push(2);
-	temp.push(3);
-	temp.push(4);
-}
+   pFile = fopen ("searchResults.html","w");
+   for (n=0 ; n<3 ; n++)
+   {
+     fwprintf (stdout, L"please, enter a name: ");
+     fgetws (name, 100, stdin);
+     fwprintf (pFile, L"Name %d: %s",n,name);
+   }
+   fclose (pFile);
 
-int main(){
-	cout<<_T("%d. %s - %f\n");
+   return 0;
 }

@@ -64,7 +64,7 @@ void SearchFiles(const char* index){
             //const TCHAR* buf = doc.get(_T("contents"));
             _tprintf(_T("%d. %s - %f\n"), i, doc->get(_T("path")), h->score(i));
             //print result to web interface:
-
+            LINH_PRINT_WEB(i,doc->get(_T("path")),h->score(i));
         }
 
         printf("\n\nSearch took: %d ms.\n", srch);

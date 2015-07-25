@@ -11,6 +11,19 @@
 
 using namespace std;
 
+
+void LINH_PRINT_WEB(int num, const wchar_t* path, float score){
+    static FILE *__result_output_html = fopen("searchResults.html","w");
+    if (__result_output_html != NULL) printf("OK, ");
+    if(fwprintf(__result_output_html,
+        L"<p>%d. <a href=%s>%s</a></p><br>\n",
+        num,
+        path,
+        path))
+        printf("Print OK!");
+
+}
+
 void ProcessDirectory(std::string, stack<string>& );
 void ProcessFile(std::string);
 void ProcessEntity(struct dirent*, stack<string>& );

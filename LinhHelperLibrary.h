@@ -12,7 +12,7 @@
 using namespace std;
 
 void LINH_LIST_DIRECTORY(std::string, stack<string>&);
-//void LINH_PRINT_WEBINTERFACE()
+void LINH_PRINT_WEB(int num, const wchar_t* path, float score);
 
 #endif
 

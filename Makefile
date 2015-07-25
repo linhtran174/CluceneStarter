@@ -28,7 +28,7 @@ Main.o: Main.cpp
 	g++ -c Main.cpp -o bin/Main.o	
 
 temp: LinhHelperLibrary.o temp.o
-	g++ -o temp temp.o bin/LinhHelperLibrary.o
+	g++ -o temp bin/temp.o bin/LinhHelperLibrary.o
 
 temp.o: temp.cpp
-	g++ -c temp.cpp -o temp.o
+	g++ -c temp.cpp -o bin/temp.o

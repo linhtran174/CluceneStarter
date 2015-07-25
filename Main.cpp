@@ -74,7 +74,7 @@ int main( int32_t argc, char** argv ){
 		printf("Location of text files to be indexed: ");
 		string files;
 		cin >> files;
-		cout << "files: \"" << files << "\"" << endl;
+		files = "/home/linh/Desktop/websites";
 		
 		/*printf("Location to store the LUCENE index: ");
 		char ndx[250];
