@@ -73,7 +73,7 @@ int main( int32_t argc, char** argv ){
 		printf("____________________________________________________\n");
 		printf("Location of text files to be indexed: ");
 		string files;
-		cin >> files;
+		//cin >> files;
 		files = "/home/linh/Desktop/websites";
 		
 		/*printf("Location to store the LUCENE index: ");
